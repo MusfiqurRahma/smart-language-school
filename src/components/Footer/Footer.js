@@ -56,11 +56,11 @@ const Footer = () => {
                     <InputGroup className="mb-3">
                         <FormControl
                             style={{width:'100%',fontSize:'18px',borderRadius:'15px',color:'black',marginRight:'50px'}}
-            placeholder="Your Email"
-           aria-label="Recipient's username"
-          aria-describedby="basic-addon2"
-          />
-        </InputGroup>
+                 placeholder="Your Email"
+               aria-label="Recipient's username"
+             aria-describedby="basic-addon2"
+            />
+          </InputGroup>
          <Button style={{width:'80%',border:'1px solid #824aff',backgroundColor:'#824aff',fontSize:'18px',borderRadius:'15px',color:'white',marginRight:'50px'}} variant="outline-secondary"id="button-addon2">
         Subscribe
       </Button>

@@ -2,9 +2,9 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Carousel, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import logo from '../logo/images.png';
-import firstImg from '../../src/Background/istockphoto-1141405912-612x612.jpg'
-import secondImg from '../../src/Background/unnamed.jpg';
-import thirdImg from '../../src/Background/website_seoul_cover_4.jpg';
+import firstImg from '../../src/Background/Captureee.PNG'
+import secondImg from '../../src/Background/Captureeeee.png';
+import thirdImg from '../../src/Background/little-girl-sitting-table-using-modern-tablett.jpg';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -41,36 +41,36 @@ const Header = () => {
             <Carousel>
   <Carousel.Item interval={1000}>
      <img
-      style={{width:'100%',height:'500px'}}
+      style={{width:'100%',height:'600px'}}
       className="d-block w-100"
       src={firstImg}
       alt="First slide"
     />
-    <Carousel.Caption className='text-light fs-1 fw-bold'>
+    <Carousel.Caption className='text-dark fs-1 fw-bold'>
      <h1>This Is The Best Courses You Can Get</h1>
     <h2>Not Just Traditional Learning!!</h2>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item interval={500}>
      <img
-      style={{width:'100%',height:'500px'}}
+      style={{width:'100%',height:'600px'}}
       className="d-block w-100"
       src={secondImg}
       alt="Second slide"
     />
-    <Carousel.Caption className='text-light fs-1 fw-bold'>
+    <Carousel.Caption className='text-dark fs-1 fw-bold'>
     <h1>This Is The Best Courses You Can Get.</h1>
     <h2>Not Just Traditional Learning!!</h2>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
      <img
-      style={{width:'100%',height:'500px'}}
+      style={{width:'100%',height:'600px'}}
       className="d-block w-100"
       src={thirdImg}
       alt="Third slide"
     />
-    <Carousel.Caption className='text-light fs-1 fw-bold'>
+    <Carousel.Caption className='text-black fs-1 fw-bold'>
     <h1>This Is The Best Courses You Can Get!!</h1>
     <h2>Not Just Traditional Learning</h2>
     </Carousel.Caption>
