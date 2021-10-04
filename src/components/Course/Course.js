@@ -15,7 +15,8 @@ const Course = (props) => {
           <Card.Text>
             {desc}
           </Card.Text>
-        </Card.Body>
+            </Card.Body>
+            <button style={{backgroundColor:'#824aff'}} className='w-50 mx-auto border border-2 text-light mb-2'>See More</button>
       </Card>
     </Col>
        </div>

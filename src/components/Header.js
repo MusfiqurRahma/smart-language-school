@@ -32,7 +32,7 @@ const Header = () => {
           className="me-2"
           aria-label="Search"
         />
-        <Button style={{borderRadius:'50px',background:'pink',padding:'5px',border:'1px solid pink'}} variant="outline-success" className='fs-6'>Search</Button>
+        <Button style={{borderRadius:'50px',background:'#824aff',padding:'5px',border:'1px solid #824aff',color:'whitesmoke'}} variant="outline-success" className='fs-6'>Search</Button>
       </Form>
     </Navbar.Collapse>
   </Container>
