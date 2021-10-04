@@ -4,7 +4,7 @@ import { Carousel, Container, Form, FormControl, Nav, Navbar } from 'react-boots
 import logo from '../logo/images.png';
 import firstImg from '../../src/Background/Captureee.PNG'
 import secondImg from '../../src/Background/Captureeeee.png';
-import thirdImg from '../../src/Background/little-girl-sitting-table-using-modern-tablett.jpg';
+import thirdImg from '../../src/Background/little-girl-sitting-table-using-modern-tablet.jpg';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
