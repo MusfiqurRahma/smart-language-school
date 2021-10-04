@@ -1,4 +1,5 @@
 .cardList:hover{
-  background:   #00aeef;
+  background:   hsl(196, 100%, 47%);
   color: white;
+  cursor: pointer;
 }
