@@ -16,7 +16,7 @@ const Course = (props) => {
             {desc}
           </Card.Text>
             </Card.Body>
-            <button style={{backgroundColor:'#824aff'}} className='w-50 mx-auto border border-2 text-light mb-2'>See More</button>
+            <button style={{backgroundColor:'#824aff'}} className='w-50 mx-auto border border-2 text-light mb-2'>See More →</button>
       </Card>
     </Col>
        </div>

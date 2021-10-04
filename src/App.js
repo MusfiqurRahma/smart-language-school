@@ -1,20 +1,45 @@
+import { BrowserRouter,Switch,Route} from 'react-router-dom';
 import './App.css';
-import Courses from './components/Courses/Courses';
-import FindCourse from './components/FindCourse/FindCourse';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Course from './components/Course/Course';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header';
-import SpecialTreat from './components/SpecialTreat/SpecialTreat';
+import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
+import Services from './components/Services/Services';
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
       <Header></Header>
-      <SpecialTreat></SpecialTreat>
-      <Courses></Courses>
-      <FindCourse></FindCourse>
-      <Footer></Footer>
+        <Switch>
+          <Route exact path ='/'>
+           <Home></Home>
+         </Route>
+          <Route path ='/home'>
+           <Home></Home>
+         </Route>
+          <Route exact path ='/services'>
+           <Services></Services>
+         </Route>
+          <Route exact path ='/course/:serviceId'>
+           <Course></Course>
+         </Route>
+          <Route exact path ='/contact'>
+           <Contact></Contact>
+         </Route>
+          <Route exact path ='/about'>
+           <About></About>
+         </Route>
+          <Route exact path ='*'>
+           <NotFound></NotFound>
+         </Route>
+        </Switch>
+        <Footer></Footer>
+      </BrowserRouter>          
     </div>
   );
 }
-
 export default App;

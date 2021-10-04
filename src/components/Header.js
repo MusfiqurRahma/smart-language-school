@@ -5,6 +5,7 @@ import logo from '../logo/images.png';
 import firstImg from '../../src/Background/istockphoto-1141405912-612x612.jpg'
 import secondImg from '../../src/Background/unnamed.jpg';
 import thirdImg from '../../src/Background/website_seoul_cover_4.jpg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -19,10 +20,10 @@ const Header = () => {
         style={{ maxHeight: '100px' }}
         navbarScroll
       >
-        <Nav.Link className='fw-bold' to="/home">Home</Nav.Link>
-        <Nav.Link className='fw-bold' href="/services">Services</Nav.Link>
-        <Nav.Link className='fw-bold' href="/contact">Contact</Nav.Link>
-        <Nav.Link className='fw-bold' href="/about">About Us</Nav.Link>
+        <Link className='fw-bold mx-3' to="/home">Home</Link>
+        <Link className='fw-bold mx-3' to="/services">Services</Link>
+        <Link className='fw-bold mx-3' to="/contact">Contact</Link>
+        <Link className='fw-bold mx-3' to="/about">About Us</Link>
       </Nav>
       <Form className="d-flex mx-5">
         <FormControl
