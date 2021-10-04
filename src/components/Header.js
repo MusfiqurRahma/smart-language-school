@@ -2,9 +2,9 @@ import Button from '@restart/ui/esm/Button';
 import React from 'react';
 import { Carousel, Container, Form, FormControl, Nav, Navbar } from 'react-bootstrap';
 import logo from '../logo/images.png';
-import firstImg from '../../src/Background/124290767-online-language-courses-distance-education-training-language-learning-interface-and-teaching-concept.jpg'
-import secondImg from '../../src/Background/Cover-option-1-1024x768.jpg';
-import thirdImg from '../../src/Background/language-learning-softwares.jpg';
+import firstImg from '../../src/Background/istockphoto-1141405912-612x612.jpg'
+import secondImg from '../../src/Background/unnamed.jpg';
+import thirdImg from '../../src/Background/website_seoul_cover_4.jpg';
 
 const Header = () => {
     return (
@@ -45,8 +45,8 @@ const Header = () => {
       src={firstImg}
       alt="First slide"
     />
-    <Carousel.Caption className='text-dark fs-1 fw-bold'>
-     <h1>This Is Best Courses You Can Get</h1>
+    <Carousel.Caption className='text-light fs-1 fw-bold'>
+     <h1>This Is The Best Courses You Can Get</h1>
     <h2>Not Just Traditional Learning!!</h2>
     </Carousel.Caption>
   </Carousel.Item>
@@ -57,7 +57,7 @@ const Header = () => {
       src={secondImg}
       alt="Second slide"
     />
-    <Carousel.Caption className='text-dark fs-1 fw-bold'>
+    <Carousel.Caption className='text-light fs-1 fw-bold'>
     <h1>This Is The Best Courses You Can Get.</h1>
     <h2>Not Just Traditional Learning!!</h2>
     </Carousel.Caption>
@@ -69,7 +69,7 @@ const Header = () => {
       src={thirdImg}
       alt="Third slide"
     />
-    <Carousel.Caption className='text-dark fs-1 fw-bold'>
+    <Carousel.Caption className='text-light fs-1 fw-bold'>
     <h1>This Is The Best Courses You Can Get!!</h1>
     <h2>Not Just Traditional Learning</h2>
     </Carousel.Caption>
