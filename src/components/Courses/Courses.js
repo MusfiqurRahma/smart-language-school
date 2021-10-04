@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {Row } from 'react-bootstrap';
 import Course from '../Course/Course';
 import titleImg from '../../Background/title_separate.png';
+import Services from '../Services/Services';
 
 const Courses = () => {
     const [courses, setCourses] = useState([]);
@@ -21,7 +22,7 @@ const Courses = () => {
             {
                 courses.slice(0,4).map(course => <Course
                  course={course}
-                 key={course.key}></Course>)
+                 key={course.key}><Services></Services></Course>)
             }
              </Row> 
           </div>

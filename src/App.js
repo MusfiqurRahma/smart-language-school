@@ -2,7 +2,6 @@ import { BrowserRouter,Switch,Route} from 'react-router-dom';
 import './App.css';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-import Course from './components/Course/Course';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header';
 import Home from './components/Home/Home';
@@ -23,9 +22,6 @@ function App() {
          </Route>
           <Route exact path ='/services'>
            <Services></Services>
-         </Route>
-          <Route exact path ='/course/:serviceId'>
-           <Course></Course>
          </Route>
           <Route exact path ='/contact'>
            <Contact></Contact>
