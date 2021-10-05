@@ -3,12 +3,14 @@ import { Col, FormControl, InputGroup, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarked, faPhone, faStopwatch} from '@fortawesome/free-solid-svg-icons'
 import Button from '@restart/ui/esm/Button';
+import './Footer.css';
 
 const Footer = () => {
     const marker = <FontAwesomeIcon style={{fontSize:'18px',color:'red'}} icon={faMapMarked} />
     const telePhone = <FontAwesomeIcon style={{fontSize:'18px',color:'red'}} icon={faPhone} />
     const alarm = <FontAwesomeIcon style={{fontSize:'18px',color:'red'}} icon={faStopwatch} />
     return (
+        // started footer
         <div style={{ backgroundColor: '#012345', color: 'white', marginTop: '30px', height: '350px', padding:'15px'}}>
             <Row className='d-flex justify-content-center'>
                 <Col>
@@ -39,16 +41,18 @@ const Footer = () => {
                         <li>Intermediate</li>
                         <li>German Language</li>
                         <li>Russian Language</li>
+                        <li>Chinese Language</li>
                     </ul>
                 </Col>
                 <Col>
                     <h3 className='fw-bold'>Information</h3>
                     <hr />
-                    <p>About us</p>
-                    <p>Blog</p>
-                    <p>Special offers</p>
-                    <p>Privacy policy</p>
-                    <p>Terms of us</p>
+                    <p className='information'>About us</p>
+                    <p className='information'>Blog</p>
+                    <p className='information'>Special offers</p>
+                    <p className='information'>Privacy policy</p>
+                    <p className='information'>Terms of us</p>
+
                 </Col>
                 <Col>
                     <h3 className='fw-bold'>News Letter</h3>
@@ -68,7 +72,8 @@ const Footer = () => {
   </Row>
 <hr />
 <p>2021&copy;All Rights Reserved -'Musfiqur Rahman'</p>            
-</div>
+        </div>
+        // footer ended
 );
 };
 

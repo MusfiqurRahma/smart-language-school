@@ -13,7 +13,10 @@ const Services = () => {
         <div  style={{marginTop:"20px"}}>
             <Row xs={1} md={3} className="g-4">
             {
-            services.map(service =><Service service ={service}></Service>)
+                    services.map(service => <Service
+                        service={service}
+                        key={service.id}>
+                        </Service>)
             }
            </Row>
           

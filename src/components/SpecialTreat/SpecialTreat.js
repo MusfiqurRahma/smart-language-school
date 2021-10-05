@@ -5,12 +5,13 @@ import titleImg from '../../Background/title_separate.png';
 import { Link } from 'react-router-dom';
 
 const SpecialTreat = () => {
+    // special treat
     return (
-    <div className='mt-5'>
+    <div className='mt-5 mx-4'>
     <h3 className='text-secondary'>WHAT SPECIAL IN SMART LANGUAGE SCHOOL</h3>
     <img src={titleImg} alt="" />
     <p className='text-secondary fw-bold'>We provide the best services for your Learning skill.</p>
-     <div className='row row-cols-1 row-cols-md-2' style={{margin:'auto'}}>
+     <div className='row row-cols-1 row-cols-md-2'>
      <Card className='cardList' style={{ width: '18rem',marginLeft:'80px'}}>
      <Card.Body>
      <Card.Title className='fw-bold'>METHODOLOGY</Card.Title>

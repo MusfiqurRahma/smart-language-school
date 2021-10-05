@@ -2,4 +2,6 @@
   background:   hsl(196, 100%, 47%);
   color: white;
   cursor: pointer;
+  transition:0.3s;
+  box-shadow: 40px 40px 40px 40px;
 }

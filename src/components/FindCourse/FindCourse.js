@@ -5,6 +5,7 @@ import subscribeImg from '../../Background/refer-a-friend.png';
 import iconImg from '../../Background/72-729756_how-to-add-a-new-user-to-your.png';
 
 const FindCourse = () => {
+   // finding course
     return (
         <>
             <Container className='bg-light'>

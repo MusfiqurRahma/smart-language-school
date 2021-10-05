@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const Service = (props) => {
+  // distructuring
     const { name, title, desc, img } = props.service;
     return (
         <div>

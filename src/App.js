@@ -7,7 +7,7 @@ import Header from './components/Header';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
 import Services from './components/Services/Services';
-
+import Trainers from './components/Trainers/Trainers';
 function App() {
   return (
     <div className="App">
@@ -28,6 +28,9 @@ function App() {
          </Route>
           <Route exact path ='/about'>
            <About></About>
+         </Route>
+          <Route exact path ='/trainers'>
+           <Trainers></Trainers>
          </Route>
           <Route exact path ='*'>
            <NotFound></NotFound>
